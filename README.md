@@ -1,20 +1,13 @@
 # Issues
 
-**TODO: Add description**
+**Grab a list of Github issues**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Clone the repo and compile the app
 
-  1. Add issues to your list of dependencies in `mix.exs`:
+`mix escript.build`
 
-        def deps do
-          [{:issues, "~> 0.0.1"}]
-        end
+## Run the app
 
-  2. Ensure issues is started before your application:
-
-        def application do
-          [applications: [:issues]]
-        end
-
+`./issues <github-username> <repository-name>`
